@@ -18,13 +18,14 @@ class Monster:
 def get_random_monster():
     monsters = [
         Monster("Slime", 100, 10),
-        Monster("Dragonnet", 150, 12),
+        Monster("Dragonnet", 110, 14),
         Monster("Armée de squelettes", 90, 6, attacks_per_turn=2),
-        Monster("Loup-garou", 120, 9),
-        Monster("Mort-vivant", 89, 11)
+        Monster("Loup-garou", 110, 12),
+        Monster("Mort-vivant", 89, 12),
+        Monster("Této_jockey", 1, 109)
     ]
     return random.choice(monsters)
 
 
 def get_boss():
-    return Monster("Grand Démon", 300, 20, attacks_per_turn=1)
+    return Monster("Grand Démon", 300, 30, attacks_per_turn=1)

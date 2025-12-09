@@ -17,3 +17,4 @@ chainmail = Armor("Armure en chainmail", 4)
 
 mage_robe = Armor("Robe de mage", 6)
 sage_robe = Armor("Robe de grand sage", 14)
+archimage_robe = Armor("Robe d'archimage", 28)
